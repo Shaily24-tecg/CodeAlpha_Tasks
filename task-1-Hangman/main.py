@@ -9,7 +9,7 @@ attempts = 6
 print("WELCOME TO HANGMAN GAME")
 
 while attempts>0 and "_" in guessed_word:
-    print("\nWord: "," ".join(guessed_word))  # joining th letters
+    print("\nWord: "," ".join(guessed_word))  # joining the letters
     guess = input("Enter a letter: ").lower()
 
     if guess in word:
