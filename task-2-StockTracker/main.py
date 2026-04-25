@@ -3,7 +3,7 @@ stock_prices = {
     "TSLA": 250,
     "GOOG": 2700,
     "AMZN": 3300
-}
+}                               # Dictionary to store stock prices
 total = 0
 print("Available stocks:",", ".join(stock_prices.keys()))
 
