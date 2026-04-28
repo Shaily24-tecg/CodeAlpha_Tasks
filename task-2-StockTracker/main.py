@@ -25,5 +25,5 @@ while True:
     print("Added: ",investment)
     print("Total Investment: ",total)  
 
-    with open("result.txt", "w") as f:
+    with open("result.txt", "w") as f: # it shows the total investment in a text file
         f.write("Total Investment: " + str(total))  
