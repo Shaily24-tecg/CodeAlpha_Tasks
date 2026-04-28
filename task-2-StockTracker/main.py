@@ -11,7 +11,7 @@ while True:
     stock = input("Enter stock name (or 'done'): ").upper()
     if stock == "DONE":
         break
-    if stock not in stock_prices:
+    if stock not in stock_prices: #if user enters a stock that is not in the dictionary, it will print "Invalid stock" and continue to the next iteration of the loop
         print("Invalid stock")
         continue
 
