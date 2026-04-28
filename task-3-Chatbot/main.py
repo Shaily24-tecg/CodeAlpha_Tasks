@@ -1,5 +1,5 @@
 def reply(user):
-    if user == "hello":
+    if user == "hello":   # here I use predefined chats to reply to the user
         return "Hello! How can I hlep you?"
 
     elif user == "how are you?":
