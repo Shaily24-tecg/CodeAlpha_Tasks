@@ -1,6 +1,6 @@
 import random
 
-words = ["hello","python","hangman","game","world"] # predefined words
+words = ["hello","python","hangman","game","world"] # predefined words for game
 word = random.choice(words)
 
 guessed_word = ["_"] * len(word)
