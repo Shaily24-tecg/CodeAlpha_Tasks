@@ -12,7 +12,7 @@ def reply(user):
         return "Goodbye!" 
 
     else:
-        return "I don't understand"              
+        return "I don't understand"     # if the user input is not in the predefined chats, it will reply with this message         
 
 while True:
     user = input("You: ").lower()
